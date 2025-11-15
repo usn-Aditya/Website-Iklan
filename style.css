@@ -1,0 +1,21 @@
+.banner-img {
+  width: 100%;
+  max-width: 1400px; /* batasi supaya tidak terlalu besar */
+  height: 360px; /* tinggi banner */
+  object-fit: cover; /* biar gambar proporsional */
+  border-radius: 10px; /* sudut halus */
+  margin: 0 auto; /* rata tengah */
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .banner-img {
+    height: 180px; /* lebih kecil di HP */
+  }
+}
+
+body {
+  background-color: rgb(238, 240, 207); /* ganti dengan warna yang kamu mau */
+  margin: 0;
+  padding: 0;
+}
